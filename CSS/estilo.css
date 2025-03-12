@@ -1,0 +1,109 @@
+.padre{
+    background-color: yellow;
+    padding: 5px;
+    display: grid;
+    grid-template-areas:"hijo1  hijo1  hijo1  hijo1  hijo1  hijo1  hijo1  hijo1  hijo1  hijo1"
+                        "hijo2  hijo2  hijo2  hijo2  hijo2  hijo2  hijo2  hijo2  hijo2  hijo2"
+                        "hijo3  hijo4  hijo7  hijo7  hijo7  hijo7  hijo7  hijo8  hijo9  hijo9"
+                        "hijo3  hijo4  hijo7  hijo7  hijo7  hijo7  hijo7  hijo8  hijo10 hijo11"
+                        "hijo5  hijo6  hijo7  hijo7  hijo7  hijo7  hijo7  hijo8  hijo10 hijo12"
+                        "hijo5  hijo6  hijo7  hijo7  hijo7  hijo7  hijo7  hijo8  hijo10 hijo13"
+                        "hijo14 hijo14 hijo14 hijo14 hijo14 hijo15 hijo15 hijo15 hijo15 hijo15"
+                        "hijo16 hijo16 hijo16 hijo16 hijo16 hijo16 hijo16 hijo16 hijo16 hijo16" ;
+}
+.padre .hijo1{
+    background-color:indianred;
+    margin: 5px;
+    grid-area: hijo1;
+    padding: 20px;
+}
+.padre .hijo2{
+    background-color: royalblue;
+    margin: 5px;
+    grid-area: hijo2;
+    padding: 20px;
+}
+.padre .hijo3{
+    background-color:darkolivegreen;
+    margin: 5px;
+    grid-area: hijo3;
+    padding: 20px;
+}
+.padre .hijo4{
+    background-color: darkolivegreen;
+    margin: 5px;
+    grid-area: hijo4;
+    padding: 20px;
+}
+.padre .hijo5{
+    background-color: darkolivegreen;
+    margin: 5px;
+    grid-area: hijo5;
+    padding: 20px;
+}
+.padre .hijo6{
+    background-color: darkolivegreen;
+    margin: 5px;
+    grid-area: hijo6;
+    padding: 20px;
+}
+.padre .hijo7{
+    background-color:lawngreen;
+    margin: 5px;
+    grid-area: hijo7;
+    padding: 20px;
+}
+.padre .hijo8{
+    background-color:coral;
+    margin: 5px;
+    grid-area: hijo8;
+    padding: 20px;
+}
+.padre .hijo9{
+    background-color: coral;
+    margin: 5px;
+    grid-area: hijo9;
+    padding: 20px;
+}
+.padre .hijo10{
+    background-color: coral;
+    margin: 5px;
+    grid-area: hijo10;
+    padding: 20px;
+}
+.padre .hijo11{
+    background-color: coral;
+    margin: 5px;
+    grid-area: hijo11;
+    padding: 20px;
+}
+.padre .hijo12{
+    background-color: coral;
+    margin: 5px;
+    grid-area: hijo12;
+    padding: 20px;
+}
+.padre .hijo13{
+    background-color: coral;
+    margin: 5px;
+    grid-area: hijo13;
+    padding: 20px;
+}
+.padre .hijo14{
+    background-color:hotpink;
+    margin: 5px;
+    grid-area: hijo14;
+    padding: 20px;
+}
+.padre .hijo15{
+    background-color: hotpink;
+    margin: 5px;
+    grid-area: hijo15;
+    padding: 20px;
+}
+.padre .hijo16{
+    background-color:peru;
+    margin: 5px;
+    grid-area: hijo16;
+    padding: 20px;
+}
